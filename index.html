@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Body Mass Index (BMI) Calculator</h1>
+        <p>Check your BMI and learn how to maintain a healthy lifestyle.</p>
+    </header>
+    
+    <section class="calculator-section">
+        <div class="calculator-box">
+            <h2>Calculate Your BMI</h2>
+            <form id="bmi-form">
+                <label for="weight">Weight (kg):</label>
+                <input type="number" id="weight" required>
+                
+                <label for="height">Height (cm):</label>
+                <input type="number" id="height" required>
+                
+                <button type="submit">Calculate BMI</button>
+            </form>
+            <div id="result"></div>
+        </div>
+    </section>
+    
+    <section class="info-section">
+        <h2>What is BMI?</h2>
+        <p>BMI is a measure of body fat based on height and weight that applies to adult men and women.</p>
+        <img src="fitness.jpg" alt="BMI Chart" class="responsive-img">
+    </section>
+    
+    <section class="bmi-table-section">
+        <h2>BMI Categories</h2>
+        <table>
+            <tr>
+                <th>Category</th>
+                <th>BMI Range</th>
+            </tr>
+            <tr>
+                <td>Underweight</td>
+                <td>Less than 18.5</td>
+            </tr>
+            <tr>
+                <td>Normal weight</td>
+                <td>18.5 - 24.9</td>
+            </tr>
+            <tr>
+                <td>Overweight</td>
+                <td>25 - 29.9</td>
+            </tr>
+            <tr>
+                <td>Obese</td>
+                <td>30 or more</td>
+            </tr>
+        </table>
+    </section>
+    
+    <footer>
+        <p>Stay healthy and maintain a balanced diet!</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
